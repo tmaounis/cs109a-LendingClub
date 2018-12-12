@@ -1,5 +1,13 @@
+---
+title: mse_OLS_test = sm.tools.eval_measures.mse( y_test, OLS_test_pred)
+notebook: models.ipynb
+---
 
-# Models
+## Contents
+{:.no_toc}
+*  
+{: toc}
+
 
 
 
@@ -5602,8 +5610,6 @@ OLS_test_pred = model_OLS.predict(X_test)
 ```python
 score_OLS_train = r2_score(y_train,OLS_train_pred)
 score_OLS_test = r2_score(y_test,OLS_test_pred)
-# mse_OLS_train = sm.tools.eval_measures.mse( y_train,OLS_train_pred)
-# mse_OLS_test = sm.tools.eval_measures.mse( y_test, OLS_test_pred)
 acc_OLS_train = accuracy_score(y_train_class,OLS_train_pred.apply(num_to_subgrade))
 acc_OLS_test = accuracy_score(y_test_class, OLS_test_pred.apply(num_to_subgrade))
 acc_OLS_grade_train = acc_within_delta(y_train,OLS_train_pred, 1)
