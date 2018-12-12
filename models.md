@@ -1,13 +1,3 @@
----
-title: Models
-notebook: models.ipynb
----
-
-## Contents
-{:.no_toc}
-*  
-{: toc}
-
 
 # Models
 
